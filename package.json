@@ -1,14 +1,14 @@
 {
   "name": "artbytecore-build",
   "version": "0.5.5",
-  "description": "A helper for common tasks to build artbytecore modules'",
+  "description": "A helper for common tasks to build whitecoin core modules'",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Bushstar/artbytecore-build"
+    "url": "git://github.com/cqtenq/artbytecore-build"
   },
   "keywords": [
     "artbytecore"
@@ -37,9 +37,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Bushstar/artbytecore-build/issues"
+    "url": "https://github.com/cqtenq/artbytecore-build/issues"
   },
-  "homepage": "https://github.com/Bushstar/artbytecore-build",
+  "homepage": "https://github.com/cqtenq/artbytecore-build",
   "dependencies": {
     "brfs": "^1.2.0",
     "browserify": "~13.1.0",

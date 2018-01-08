@@ -293,7 +293,7 @@ function startGulp(name, opts) {
   });
 
   gulp.task('release:push', function(cb) {
-    git.push('Bushstar', 'master', {
+    git.push('cqtenq', 'master', {
       args: ''
     }, cb);
   });
@@ -327,7 +327,7 @@ function startGulp(name, opts) {
       browser ? 'browser' : 'noop',
       // Commit 
       'release:build-commit',
-      // Run git push Bushstar $VERSION
+      // Run git push cqtenq $VERSION
       'release:push-tag',
       // Run npm publish
       'release:publish',
